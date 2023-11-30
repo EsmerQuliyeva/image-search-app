@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+            <h1 id="name-app">Image Search App</h1>
+            <form class="input-search">
+            <input type="text" placeholder="Search for images" id="search-text">
+            <button type="button" class="btn btn-success" style="background-color:588157; padding: 10px 20px; cursor: pointer;" id="search-btn">Search</button>
+            </form>
+        <div class="search-results d-flex">
+            <div class="search-result">
+                <img src="https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=0.752xw:1.00xh;0.175xw,0&resize=1200:*"
+                    alt="dog"><br>
+                    <a href="https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=0.752xw:1.00xh;0.175xw,0&resize=1200:*" class="image-link" target="_blank">Dog under sky</a>
+            </div>
+            <div class="search-result">
+                <img src="https://www.purina.co.uk/sites/default/files/2023-03/Hero%20Pedigree%20Cats.jpg" alt="cats" 
+                  ><br>
+                    <a href="https://www.purina.co.uk/sites/default/files/2023-03/Hero%20Pedigree%20Cats.jpg" target="_blank" class="image-link">Dog under sky</a>
+            </div>
+            <div class="search-result">
+                <img src="https://i.natgeofe.com/k/520e971d-7a22-4a6f-90dc-258df74e45bc/american-goldfinch_2x1.jpg "
+                    alt="birds"><br>
+                    <a href="https://i.natgeofe.com/k/520e971d-7a22-4a6f-90dc-258df74e45bc/american-goldfinch_2x1.jpg" target="_blank" class="image-link">Dog under sky</a>
+            </div>
+        </div>
+        <div class="btns">
+        <button type="button" class="btn btn-success" id="show-btn">Show more</button>
+    </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
